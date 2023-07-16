@@ -1,0 +1,32 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@500&display=swap');
+:root{
+    --primary:#333
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body {
+    overflow-y: overlay;
+}
+
+
+html{
+    font-size:62.5%
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto Mono', monospace;
+    font-size: 1.6em;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+button,input, [tabindex]{
+    border: none;
+    .button + .button{
+        margin-left: 16px;
+    }
+}

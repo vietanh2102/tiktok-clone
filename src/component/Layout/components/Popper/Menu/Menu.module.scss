@@ -1,0 +1,30 @@
+.menu-list{
+    width: 240px;
+}
+.popper-menu{
+    padding-bottom: 8px;
+}
+.scroll{
+    overflow-y: auto;
+}
+
+//HeaderMenu
+.header{
+    position: relative;
+    height: 50px;
+}
+.back-btn{
+    background-color: transparent;
+    width: 50px;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+.title{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
